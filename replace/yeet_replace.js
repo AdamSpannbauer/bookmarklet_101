@@ -5,7 +5,7 @@
   	pWordCount = paragraphs[i].innerHTML.split(' ').length;
   	// replace each word with YEET
   	if (pWordCount > 0) {
-  		paragraphs[i].innerHTML = 'YEET'.repeat(pWordCount);
+  		paragraphs[i].innerHTML = 'YEET '.repeat(pWordCount);
   	}
   }
 })();
